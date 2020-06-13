@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    pagesIndex
+{% endblock %}
+{% block body %}
+    <h1>hi</h1>
+    <a href="{% url 'secondapp:index' %}">두번째 페이지 index</a>
+{% endblock %}

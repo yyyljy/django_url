@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+    로또사서 부자 ㄱ
+{% endblock %}
+
+{% block body %}
+<h1>부자 ㄱㄱ</h1>
+<form action="{% url 'lotto' %}">
+    <label for="cnt"> 몇 장 ? : </label>
+    <input type="number" name="cnt" id="cnt">
+    <input type="submit" value="구매 ㄱㄱ">
+</form>
+{% endblock %}
